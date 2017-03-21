@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#fcdef3">
+
+    <LinearLayout android:layout_height="327dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="#f8f8f8"
+        android:layout_weight="0.22">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:scaleType="center"
+            android:background="@drawable/ximiannai"
+            android:layout_gravity="center"
+            android:id="@+id/imageView1"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/name"
+            android:text="@string/name"
+            android:layout_marginTop="15dp"
+            android:textSize="27dp"
+            android:textColor="#101010" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="150ml/￥120.00"
+            android:textSize="19dp"
+            android:textColor="#101010"
+            />
+
+        <LinearLayout android:layout_height="31dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.04">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ff7043"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="15dp"
+                android:text="洁面"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonstyle"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="紧致"
+                android:textSize="16dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonstyle"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="深层洁净"
+                android:textSize="16dp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="产品介绍"
+            android:textSize="21dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:text="内含螺旋蜗牛分泌液1500mg和EGF成分，能全面改善皮肤肤质，对淡化疤痕、暗疮印、..."
+            android:textSize="17dp"/>
+        <ImageView
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_menu_send"/>
+    </LinearLayout>
+
+
+</LinearLayout>

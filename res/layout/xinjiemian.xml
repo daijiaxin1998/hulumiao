@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcdef3">
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <LinearLayout
+                    android:id="@+id/约妆"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="168dp">
+                    <LinearLayout
+                        android:layout_width="78dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <ImageView android:layout_width="match_parent"
+                            android:layout_height="39dp"
+                            android:background="@drawable/ic_menu_camera"
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="169dp"
+                        android:orientation="vertical"
+                        android:weightSum="1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="假装这是个名字"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp"
+                            android:textColor="#444444"
+                            android:textSize="19dp"
+                            />
+                        <TextView
+                            android:layout_width="290dp"
+                            android:layout_height="wrap_content"
+                            android:text="【安利】爱丽小屋的眼影盘"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="#101010"
+                            android:textSize="22dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="最近入手了爱丽小屋的十色眼影盘西柚色，使用效果超好，前来安利！"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:textColor="#8c888c"
+                            android:textSize="19dp"
+                            android:layout_weight="0.39" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="157dp"
+                                android:layout_height="wrap_content"
+                                android:text="10分钟前"
+                                android:paddingLeft="5dp"
+                                android:paddingTop="3dp"
+                                android:textColor="#cccccc"
+                                android:textSize="19dp"
+                                android:gravity="left"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="回复： 13"
+                                android:paddingLeft="5dp"
+                                android:paddingTop="3dp"
+                                android:textColor="#cccccc"
+                                android:textSize="19dp"
+                                android:gravity="right"
+                                android:paddingRight="3dp"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="78dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <ImageView android:layout_width="match_parent"
+                                android:layout_height="39dp"
+                                android:background="@drawable/ic_menu_camera"
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="假装这是个名字"
+                                android:paddingLeft="5dp"
+                                android:paddingTop="10dp"
+                                android:textColor="#444444"
+                                android:textSize="19dp"
+                                />
+                            <TextView
+                                android:layout_width="290dp"
+                                android:layout_height="wrap_content"
+                                android:text="【教程】十里桃花不如你"
+                                android:paddingLeft="5dp"
+                                android:paddingTop="5dp"
+                                android:textColor="#101010"
+                                android:textSize="22dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="超级美腻的桃花妆，超详细教导，手残党的福利。"
+                                android:paddingLeft="5dp"
+                                android:paddingTop="5dp"
+                                android:textColor="#8c888c"
+                                android:textSize="19dp" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="157dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="10分钟前"
+                                    android:paddingLeft="5dp"
+                                    android:paddingTop="3dp"
+                                    android:textColor="#cccccc"
+                                    android:textSize="19dp"
+                                    android:gravity="left"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="回复： 13"
+                                    android:paddingLeft="5dp"
+                                    android:paddingTop="3dp"
+                                    android:textColor="#cccccc"
+                                    android:textSize="19dp"
+                                    android:gravity="right"
+                                    android:paddingRight="3dp"
+                                    />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="78dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <ImageView android:layout_width="match_parent"
+                                android:layout_height="39dp"
+                                android:background="@drawable/ic_menu_camera"
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="假装这是个名字"
+                                android:paddingLeft="5dp"
+                                android:paddingTop="10dp"
+                                android:textColor="#444444"
+                                android:textSize="19dp"
+                                />
+                            <TextView
+                                android:layout_width="290dp"
+                                android:layout_height="wrap_content"
+                                android:text="【求助】油皮要疯了！"
+                                android:paddingLeft="5dp"
+                                android:paddingTop="5dp"
+                                android:textColor="#101010"
+                                android:textSize="22dp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="有没有热心的小姐姐来安利些适合油皮使用的护肤品！"
+                                android:paddingLeft="5dp"
+                                android:paddingTop="5dp"
+                                android:textColor="#8c888c"
+                                android:textSize="19dp" />
+
+                            </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/交流"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>
