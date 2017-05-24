@@ -33,6 +33,20 @@
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:windowSoftInputMode="stateAlwaysHidden">
         </activity>
+        <activity android:name=".FatieActivity">
+        </activity>
+        <activity android:name=".DingweiActivity">
+        </activity>
+        <activity android:name=".TiaoZhuan">
+        </activity>
+        <activity android:name=".TiaoZhuanActivity">
+        </activity>
+        <activity android:name=".rili">
+        </activity>
+        <activity android:name=".xiaoxi">
+        </activity>
+        <activity android:name=".qiangshiyong">
+        </activity>
     </application>
 
 </manifest>
