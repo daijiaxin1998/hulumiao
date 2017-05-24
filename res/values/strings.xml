@@ -140,4 +140,14 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="name">IT IS SKIN蜗牛修复洗面奶</string>
+    <string name="introduction">内含螺旋蜗牛分泌液1500mg和EGF成分，能全面改善皮肤肤质，对淡化疤痕、暗疮印、斑点和缩小毛孔方面有神奇的功效。使用后...</string>
+    <string name="username">bokuwa牛油圈</string>
+<string name="fuzhi">
+<u>油</u>
+</string>
+    <string name="introduce">对痘印非常有帮助，洗脸之后也不会紧绷了。</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

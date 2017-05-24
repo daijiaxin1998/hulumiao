@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              tools:context="com.bignerdranch.android.hulucat.MainActivity">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <android.support.v4.widget.DrawerLayout
+            android:layout_below="@id/toolbar"
+            android:id="@+id/drawerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="545dp">
+            <!--主布局-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                >
+                <FrameLayout
+                    android:id="@+id/layFrame"
+                    android:layout_width="match_parent"
+                    android:layout_height="545dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <android.support.design.widget.NavigationView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:id="@+id/navigation_view"
+                app:menu="@menu/menu_view"
+                app:headerLayout="@layout/head_view"
+                android:fitsSystemWindows="true">
+            </android.support.design.widget.NavigationView>
+        </android.support.v4.widget.DrawerLayout>
+
+    <com.ashokvarma.bottomnavigation.BottomNavigationBar
+        android:id="@+id/bottom_navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="58dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:src="@drawable/camera"
+            android:background="@color/transparent"
+            />
+    </com.ashokvarma.bottomnavigation.BottomNavigationBar>
+</LinearLayout>

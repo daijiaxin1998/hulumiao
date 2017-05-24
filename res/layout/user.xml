@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user"
+    android:layout_width="match_parent"
+    android:layout_height="168dp"
+    android:background="@drawable/border"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/touxiang4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="6dp"
+            android:paddingTop="15dp"
+            android:text="qerqoi"
+            android:textColor="#444444"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="【漫展】漫展求妆娘！"
+            android:textColor="#101010"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.39"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="7.1日白马湖漫展想出miku求妆娘！有小伙伴约吗！"
+            android:textColor="#8c888c"
+            android:textSize="19dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="157dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:paddingTop="3dp"
+                android:text="10分钟前"
+                android:textColor="#cccccc"
+                android:textSize="19dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingLeft="5dp"
+                android:paddingRight="3dp"
+                android:paddingTop="3dp"
+                android:text="回复： 13"
+                android:textColor="#cccccc"
+                android:textSize="19dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

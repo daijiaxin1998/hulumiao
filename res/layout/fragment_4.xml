@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="436dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="213dp"
+            android:background="@drawable/border">
+            <LinearLayout
+                android:layout_width="78dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <ImageView android:layout_width="match_parent"
+                           android:layout_height="70dp"
+                           android:background="@drawable/ic_launcher"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="假装这是个名字"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:textColor="#444444"
+                    android:textSize="19dp"
+                    />
+                <TextView
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:text="【安利】洁面产品大排名"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#101010"
+                    android:textSize="22dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="洗脸是所有护肤上妆的基础，而想要洗好脸呢，一款好的洁面产品必不可少，因此向大家推荐些我用过还不错的洁面产品！
+"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#8c888c"
+                    android:textSize="19dp"
+                    android:id="@+id/textView02" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="157dp"
+                        android:layout_height="wrap_content"
+                        android:text="10分钟前"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="3dp"
+                        android:textColor="#cccccc"
+                        android:textSize="19dp"
+                        android:gravity="left"
+                        />
+                    <TextView
+                        android:layout_width="136dp"
+                        android:layout_height="wrap_content"
+                        android:text="回复： 13"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="3dp"
+                        android:textColor="#cccccc"
+                        android:textSize="19dp"
+                        android:gravity="right"
+                        android:paddingRight="3dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="206dp"
+            android:background="@drawable/border">
+            <LinearLayout
+                android:layout_width="78dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <ImageView android:layout_width="match_parent"
+                           android:layout_height="70dp"
+                           android:background="@drawable/ic_launcher"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="215dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="假装这是个名字"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:textColor="#444444"
+                    android:textSize="19dp"
+                    />
+                <TextView
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:text="【安利】洁面产品大排名"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#101010"
+                    android:textSize="22dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="109dp"
+                    android:text="洗脸是所有护肤上妆的基础，而想要洗好脸呢，一款好的洁面产品必不可少，因此向大家推荐些我用过还不错的洁面产品！
+"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:textColor="#8c888c"
+                    android:textSize="19dp"
+                    android:id="@+id/textView2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="157dp"
+                        android:layout_height="wrap_content"
+                        android:text="10分钟前"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="3dp"
+                        android:textColor="#cccccc"
+                        android:textSize="19dp"
+                        android:gravity="left"
+                        />
+                    <TextView
+                        android:layout_width="136dp"
+                        android:layout_height="wrap_content"
+                        android:text="回复： 13"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="3dp"
+                        android:textColor="#cccccc"
+                        android:textSize="19dp"
+                        android:gravity="right"
+                        android:paddingRight="3dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/container"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/tv_yuezhuang"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="约妆"
+                android:textColor="@color/white"
+                android:textSize="15.0dip"/>
+
+            <TextView
+                android:id="@+id/tv_jiaoliu"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="交流"
+                android:textColor="@color/white"
+                android:textSize="15.0dip"/>
+
+            <ImageButton
+                android:id="@+id/dingwei"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_launcher"/>
+
+        </LinearLayout>
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="500dp"
+            android:layout_below="@+id/category_layout"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/ic_launcher" />
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

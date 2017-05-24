@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fcdef3"
+              android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/约妆"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fcdef3"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="168dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="78dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical"-->
+                <!--&gt;-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="80dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:src="@drawable/touxiang1"/>-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="169dp"-->
+                <!--android:orientation="vertical"-->
+                <!--android:weightSum="1">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="5dp"-->
+                    <!--android:paddingTop="10dp"-->
+                    <!--android:text="eohqpj"-->
+                    <!--android:textColor="#444444"-->
+                    <!--android:textSize="19dp"-->
+                    <!--/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="290dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:text="【安利】爱丽小屋的眼影盘"-->
+                    <!--android:textColor="#101010"-->
+                    <!--android:textSize="22dp"/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="0.39"-->
+                    <!--android:paddingLeft="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:text="最近入手了爱丽小屋的十色眼影盘西柚色，使用效果超好，前来安利！"-->
+                    <!--android:textColor="#8c888c"-->
+                    <!--android:textSize="19dp"/>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="157dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="left"-->
+                        <!--android:paddingLeft="5dp"-->
+                        <!--android:paddingTop="3dp"-->
+                        <!--android:text="10分钟前"-->
+                        <!--android:textColor="#cccccc"-->
+                        <!--android:textSize="19dp"-->
+                        <!--/>-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="right"-->
+                        <!--android:paddingLeft="5dp"-->
+                        <!--android:paddingRight="3dp"-->
+                        <!--android:paddingTop="3dp"-->
+                        <!--android:text="回复： 13"-->
+                        <!--android:textColor="#cccccc"-->
+                        <!--android:textSize="19dp"-->
+                        <!--/>-->
+                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="78dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical"-->
+                <!--&gt;-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="80dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:src="@drawable/touxiang4"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical"-->
+                <!--android:weightSum="1">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="5dp"-->
+                    <!--android:paddingTop="10dp"-->
+                    <!--android:text="qrroquq"-->
+                    <!--android:textColor="#444444"-->
+                    <!--android:textSize="19dp"-->
+                    <!--/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="290dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:text="【教程】十里桃花不如你"-->
+                    <!--android:textColor="#101010"-->
+                    <!--android:textSize="22dp"/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:text="超级美腻的桃花妆，超详细教导，手残党的福利。"-->
+                    <!--android:textColor="#8c888c"-->
+                    <!--android:textSize="19dp"/>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="157dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="left"-->
+                        <!--android:paddingLeft="5dp"-->
+                        <!--android:paddingTop="3dp"-->
+                        <!--android:text="10分钟前"-->
+                        <!--android:textColor="#cccccc"-->
+                        <!--android:textSize="19dp"-->
+                        <!--/>-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="right"-->
+                        <!--android:paddingLeft="5dp"-->
+                        <!--android:paddingRight="3dp"-->
+                        <!--android:paddingTop="3dp"-->
+                        <!--android:text="回复： 13"-->
+                        <!--android:textColor="#cccccc"-->
+                        <!--android:textSize="19dp"-->
+                        <!--/>-->
+                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="78dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical"-->
+                <!--&gt;-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="80dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:src="@drawable/touxiang2"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical"-->
+                <!--android:weightSum="1">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="5dp"-->
+                    <!--android:paddingTop="10dp"-->
+                    <!--android:text="niaihra"-->
+                    <!--android:textColor="#444444"-->
+                    <!--android:textSize="19dp"-->
+                    <!--/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="290dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:text="【求助】油皮要疯了！"-->
+                    <!--android:textColor="#101010"-->
+                    <!--android:textSize="22dp"/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:text="有没有热心的小姐姐来安利些适合油皮使用的护肤品！"-->
+                    <!--android:textColor="#8c888c"-->
+                    <!--android:textSize="19dp"/>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="157dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="left"-->
+                        <!--android:paddingLeft="5dp"-->
+                        <!--android:paddingTop="3dp"-->
+                        <!--android:text="10分钟前"-->
+                        <!--android:textColor="#cccccc"-->
+                        <!--android:textSize="19dp"-->
+                        <!--/>-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:gravity="right"-->
+                        <!--android:paddingLeft="5dp"-->
+                        <!--android:paddingRight="3dp"-->
+                        <!--android:paddingTop="3dp"-->
+                        <!--android:text="回复： 13"-->
+                        <!--android:textColor="#cccccc"-->
+                        <!--android:textSize="19dp"-->
+                        <!--/>-->
+                <!--</LinearLayout>-->
+
+            <!--</LinearLayout>-->
+
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

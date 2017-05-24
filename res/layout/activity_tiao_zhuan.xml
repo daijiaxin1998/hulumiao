@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.bignerdranch.android.hulucat.TiaoZhuanActivity">
+
+    <com.bignerdranch.android.hulucat.PullUpToLoadMore
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.bignerdranch.android.hulucat.MyScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_weight="0.22"
+                    android:background="#f8f8f8"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="150dp"
+                        android:layout_height="140dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="center"/>
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#101010"
+                        android:textSize="27dp"/>
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="#101010"
+                        android:textSize="19dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_weight="0.04"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/label_button1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="15dp"
+                            android:background="#ff7043"
+                            android:textColor="#ffffff"
+                            android:textSize="16dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/label_button2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/buttonstyle"
+                            android:textSize="16dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/label_button3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/buttonstyle"
+                            android:textSize="16dp"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:text="产品介绍"
+                        android:textSize="21dp"/>
+
+                    <TextView
+                        android:id="@+id/product_introduction"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="5dp"
+                        android:textSize="17dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.04"
+                    android:background="#f8f8f8"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="0.06"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:layout_width="195dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_marginLeft="20dp"
+                                android:text="年龄结构"
+                                android:textSize="21dp"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="3dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="3dp"
+                                    android:text="20岁以下"
+                                    android:textSize="17dp"/>
+
+                                <ProgressBar
+                                    android:id="@+id/pbHor1"
+                                    style="@android:style/Widget.ProgressBar.Horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="12dp"
+                                    android:max="100"
+                                    android:progress="10"
+                                    android:progressDrawable="@drawable/processbar"
+                                    />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:orientation="horizontal"
+                                android:weightSum="1">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="3dp"
+                                    android:text="21—25岁"
+                                    android:textSize="17dp"/>
+
+                                <ProgressBar
+                                    android:id="@+id/pbHor2"
+                                    style="@android:style/Widget.ProgressBar.Horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="12dp"
+                                    android:max="100"
+                                    android:progress="34"
+                                    android:progressDrawable="@drawable/processbar"
+                                    />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="3dp"
+                                    android:text="26—30岁"
+                                    android:textSize="17dp"/>
+
+                                <ProgressBar
+                                    android:id="@+id/pbHor3"
+                                    style="@android:style/Widget.ProgressBar.Horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="12dp"
+                                    android:max="100"
+                                    android:progress="50"
+                                    android:progressDrawable="@drawable/processbar"
+                                    />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="3dp"
+                                    android:text="31—39岁"
+                                    android:textSize="17dp"/>
+
+                                <ProgressBar
+                                    android:id="@+id/pbHor4"
+                                    style="@android:style/Widget.ProgressBar.Horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="12dp"
+                                    android:max="100"
+                                    android:progress="6"
+                                    android:progressDrawable="@drawable/processbar"
+                                    />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="3dp"
+                                    android:text="40岁以上"
+                                    android:textSize="17dp"/>
+
+                                <ProgressBar
+                                    android:id="@+id/pbHor5"
+                                    style="@android:style/Widget.ProgressBar.Horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="12dp"
+                                    android:max="100"
+                                    android:progress="0"
+                                    android:progressDrawable="@drawable/processbar"
+                                    />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="160dp"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_marginLeft="20dp"
+                                android:text="肤质比例"
+                                android:textSize="21dp"/>
+
+                            <LinearLayout
+                                android:layout_width="242dp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:weightSum="1">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="1dp"
+                                    android:orientation="vertical">
+
+                                    <ProgressBar
+                                        android:id="@+id/pbHor6"
+                                        android:layout_width="19dp"
+                                        android:layout_height="104dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:indeterminateOnly="false"
+                                        android:max="100"
+                                        android:progress="10"
+                                        android:progressDrawable="@drawable/vertical_progressbar"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:text="干性"
+                                        android:textSize="15dp"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="34dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="3dp"
+                                    android:orientation="vertical">
+
+                                    <ProgressBar
+                                        android:id="@+id/pbHor7"
+                                        android:layout_width="19dp"
+                                        android:layout_height="102dp"
+                                        android:layout_marginLeft="8dp"
+                                        android:indeterminateOnly="false"
+                                        android:max="100"
+                                        android:progress="13"
+                                        android:progressDrawable="@drawable/vertical_progressbar"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="油性"
+                                        android:textSize="15dp"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="32dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="3dp"
+                                    android:layout_weight="0.06"
+                                    android:orientation="vertical">
+
+                                    <ProgressBar
+                                        android:id="@+id/pbHor8"
+                                        android:layout_width="19dp"
+                                        android:layout_height="102dp"
+                                        android:layout_marginLeft="8dp"
+                                        android:indeterminateOnly="false"
+                                        android:max="100"
+                                        android:progress="12"
+                                        android:progressDrawable="@drawable/vertical_progressbar"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="3dp"
+                                        android:text="中性"
+                                        android:textSize="15dp"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="33dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="3dp"
+                                    android:orientation="vertical">
+
+                                    <ProgressBar
+                                        android:id="@+id/pbHor9"
+                                        android:layout_width="19dp"
+                                        android:layout_height="102dp"
+                                        android:layout_marginLeft="4dp"
+                                        android:indeterminateOnly="false"
+                                        android:max="100"
+                                        android:progress="48"
+                                        android:progressDrawable="@drawable/vertical_progressbar"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="0dp"
+                                        android:text="混合"
+                                        android:textSize="15dp"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="3dp"
+                                    android:orientation="vertical">
+
+                                    <ProgressBar
+                                        android:id="@+id/pbHor10"
+                                        android:layout_width="19dp"
+                                        android:layout_height="102dp"
+                                        android:layout_marginLeft="9dp"
+                                        android:indeterminateOnly="false"
+                                        android:max="100"
+                                        android:progress="17"
+                                        android:progressDrawable="@drawable/vertical_progressbar"
+                                        />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="0dp"
+                                        android:text="敏感肌"
+                                        android:textSize="15dp"/>
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </com.bignerdranch.android.hulucat.MyScrollView>
+
+        <com.bignerdranch.android.hulucat.MyScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/container1">
+                </LinearLayout>
+        </com.bignerdranch.android.hulucat.MyScrollView>
+    </com.bignerdranch.android.hulucat.PullUpToLoadMore>
+</RelativeLayout>
